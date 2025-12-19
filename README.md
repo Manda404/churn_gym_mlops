@@ -4,7 +4,9 @@
 # 🏋️‍♂️ Gym Churn Prediction — Clean Architecture MLOps Package
 
 **Auteur :** Manda Rostand
+
 **Contact :** [rostandsurel@yahoo.com](mailto:rostandsurel@yahoo.com)
+
 **GitHub :** [https://github.com/Manda404](https://github.com/Manda404)
 
 ---
