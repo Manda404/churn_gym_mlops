@@ -1,0 +1,7 @@
+notebooks/catboost_info
+.venv
+__pycache__
+tests
+poetry.lock
+
+src/churn_gym/presentation/api
