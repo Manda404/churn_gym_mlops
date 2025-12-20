@@ -5,3 +5,5 @@ tests
 poetry.lock
 
 src/churn_gym/presentation/api
+
+artifacts/*

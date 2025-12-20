@@ -3,7 +3,6 @@ from churn_gym.domain.interfaces.model_trainer import ModelTrainer
 from churn_gym.domain.entities.feature_vector import FeatureVector
 from typing import List
 
-
 class TrainModelUseCase:
 
     def __init__(self, trainer: ModelTrainer):
