@@ -1,0 +1,4 @@
+paths:
+  data_raw_dir: data
+  models_dir: artifacts/models
+  reports_dir: artifacts/reports

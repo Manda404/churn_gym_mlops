@@ -13,7 +13,7 @@ class PredictUseCase:
         self.threshold_service = threshold_service
 
     def execute(self, features: List[FeatureVector]) -> List[Prediction]:
-        probs = self.predictor.predict_proba(features)
+        probs = self.predictor.score(features)
 
         preds: List[Prediction] = []
         for p in probs:

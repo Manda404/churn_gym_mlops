@@ -8,5 +8,11 @@ from churn_gym.domain.entities.prediction import Prediction
 class ModelPredictor(ABC):
 
     @abstractmethod
-    def predict(self, features: List[FeatureVector]) -> List[Prediction]:
+    def score(self, features: List[FeatureVector]) -> List[Prediction]:
+        """
+        Compute churn / risk scores from domain feature vectors.
+
+        Returns:
+            List[Prediction]: probability, score, priority, decision
+        """
         pass
